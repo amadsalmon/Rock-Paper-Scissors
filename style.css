@@ -1,0 +1,74 @@
+body{
+    background-color: #2A2B39;
+    color: white;
+
+    font-family: Avenir;
+    text-align: center;
+        
+}
+
+h1{
+    margin: 0;
+    background-color: white;
+    padding: 30px;
+    color: black;
+    width: auto;
+}
+#byAmadSalmon{
+    font-size: 20px;
+}
+
+#scoreBox{
+    margin: 15px auto;
+    padding: 15px;
+    border: 4px solid white;
+    width: 190px;
+    position: relative;
+    
+    font-size: 45px;
+}
+.label{
+    font-size: 15px;
+    background-color: #E16760;
+    width: 50px;
+}
+#userLabel{
+    position: absolute;
+    top: 30px;
+    left:-23px;
+}
+#computerLabel{
+    position: absolute;
+    top: 30px;
+    right:-23px;
+}
+
+#result{
+    margin: 20px;
+    font-size: 60px;
+}
+img{
+    
+    height: 70px;
+    border: 4px solid white;
+    border-radius: 100%;
+    padding: 30px;
+    margin: 20px 15px 0px;
+}
+.greenGlow{
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #34B141;
+}
+.redGlow{
+    border: 4px solid #E16760;
+    box-shadow: 0 0 10px #E16760;
+}
+.greyGlow{
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px rgb(62, 71, 63);
+}
+
+#actionMessage{
+    margin: 15px;
+    font-size: 18px;
+}
