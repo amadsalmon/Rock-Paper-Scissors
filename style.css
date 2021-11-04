@@ -47,13 +47,22 @@ h1{
     margin: 20px;
     font-size: 60px;
 }
-img{
-    
+.choices{
+    display: flex;
+    justify-content: center;
+    flex-direction: horizontal;
+}
+.choice-icon{
     height: 70px;
+    width: 70px;
     border: 4px solid white;
     border-radius: 100%;
-    padding: 30px;
-    margin: 20px 15px 0px;
+    margin: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.choice-icon:hover{
+ background-color: rgba(255, 255, 255, 0.50)
 }
 .greenGlow{
     border: 4px solid #4dcc7d;
